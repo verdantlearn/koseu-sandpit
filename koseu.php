@@ -5,19 +5,12 @@
  */
 
 use \Tsugi\Core\LTIX;
-use Symfony\Component\HttpFoundation\Session\Session;
-use Symfony\Component\HttpFoundation\Session\Storage\PhpBridgeSessionStorage;
 
 define('COOKIE_SESSION', true);
 require_once "tsugi/config.php";
 
-$app = new \Silex\Application();
-$app['tsugi'] = LTIX::session_start();
-$OUTPUT->buffer = true;
-
-$session = new Session(new PhpBridgeSessionStorage());
-$session->start();
-$app['session'] = $session;
+$launch = LTIX::session_start();
+$app = new \Tsugi\Silex\Application($launch);
 
 class TsugiPage {
     public $view = '{{ tsugi.output.header | raw }}
@@ -42,13 +35,6 @@ Hello name = {{ name }} from the \myview class
 {% endblock %}
 ';
 }
-
-$loader = new \Koseu\Twig\Twig_Loader_Class();
-$app->tsugi = $LAUNCH;
-
-$app->register(new \Silex\Provider\TwigServiceProvider(), array(
-    'twig.loader' => $loader
-));
 
 $app->get('/class/{name}', function ($name) use ($app) {
     return $app['twig']->render('\myview', array(
