@@ -19,4 +19,9 @@ $app->get('/class/{name}', function ($name) use ($app) {
     ));
 });
 
+// echo("<pre>\n"); var_dump($launch); echo("</pre>\n");
+$app->get('/dump', function () use ($app) {
+    return $app['twig']->render('@Tsugi/Dump.twig');
+});
+
 $app->run();
