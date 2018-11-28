@@ -12,12 +12,12 @@ Install MAMP (or similar) using https://www.py4e.com/install.php
 Check out this repo into a top level folder in htdocs
 
     cd /Applications/MAMP/htdocs
-    git clone https://github.com/csev/koseu-site.git
+    git clone https://github.com/tsugiproject/koseu-site.git
 
 Go into the newly checked out folder and get a copy of Tsugi:
 
     cd koseu-site
-    git clone https://github.com/csev/tsugi.git
+    git clone https://github.com/tsugiproject/tsugi.git
 
 Create a database in your SQL server:
 
