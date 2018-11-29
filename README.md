@@ -9,14 +9,18 @@ Here are the steps to set this up on localhost on a Macintosh using MAMP.
 
 Install MAMP (or similar) using https://www.py4e.com/install.php
 
-Check out this repo into a top level folder in htdocs
+Fork the skeleton repo and rename it to something meaningful in your own repo.
+
+    https://github.com/tsugiproject/koseu-site.git
+
+Then check out your forked copy:
 
     cd /Applications/MAMP/htdocs
-    git clone https://github.com/tsugiproject/koseu-site.git
+    git clone https://github.com/csev/scc-chem-309.git
 
 Go into the newly checked out folder and get a copy of Tsugi:
 
-    cd koseu-site
+    cd scc-chem-309
     git clone https://github.com/tsugiproject/tsugi.git
 
 Create a database in your SQL server:
@@ -32,7 +36,7 @@ Still in the tsugi folder set up config.php:
 Edit the config.php file, scroll through and set up all the variables.  As you scroll through the file
 some of the following values are the values I use on my MAMP:
 
-    $wwwroot = 'http://localhost:8888/koseu-site/tsugi';   // Embedded Tsugi localhost
+    $apphome = "http://localhost:8888/scc-chem-309";
     
     ...
     
@@ -42,12 +46,11 @@ some of the following values are the values I use on my MAMP:
     
     ...
     
-    $CFG->adminpw = 'short';
+    $CFG->adminpw = 'short';  // Make this better
     
     ...
     
-    $CFG->apphome = 'http://localhost:8888/koseu-site';
-    $CFG->context_title = "Hosting your own MOOC";
+    $CFG->context_title = "Chemistry 360";
     $CFG->lessons = $CFG->dirroot.'/../lessons.json';
     
     ... 
@@ -57,7 +60,7 @@ some of the following values are the values I use on my MAMP:
     
     ...
     
-    $CFG->servicename = 'Koseu';
+    $CFG->servicename = 'CEM360';
 
 Setting up Login
 ----------------
@@ -70,7 +73,7 @@ put the following into "Authorized JavaScript Origins":
 
 And this into Authorized redirect URIs:
 
-    http://localhost/koseu-site/tsugi/login.php
+    http://localhost/scc-chem-309/tsugi/login.php
 
 Note: You do not need port numbers for either of these values in your Google
 configuration.
@@ -92,12 +95,12 @@ Starting the Application
 
 After the above configuration is done, navigate to your application:
 
-    http://localhost:8888/koseu-site/
+    http://localhost:8888/scc-chem-309/
 
 It should complain that you have not created tables and suggest you 
 use the Admin console to do that:
 
-    http://localhost:8888/koseu-site/tsugi/admin
+    http://localhost:8888/scc-chem-309/tsugi/admin
 
 It will demand the `$CFG->adminpw` from `config.php` (above) before 
 unlocking the admin console.  Run the "Upgrade Database" option and
@@ -111,7 +114,7 @@ just don't leave it empty or the internal LTI tools will not launch.
 Next use the administrator interface to install the peer-grading tool
 from the github repository:
 
-    http://localhost:8888/koseu-site/tsugi/admin/install
+    http://localhost:8888/scc-chem-309/tsugi/admin/install
 
 Click on "Available Modules" and install https://github.com/tsugitools/peer-grade
 
