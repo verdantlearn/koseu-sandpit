@@ -47,7 +47,7 @@ some of the following values are the values I use on my MAMP:
     ...
     
     $CFG->apphome = 'http://localhost:8888/koseu-site';
-    $CFG->context_title = "Koseu Test Site";
+    $CFG->context_title = "Hosting your own MOOC";
     $CFG->lessons = $CFG->dirroot.'/../lessons.json';
     
     ... 
@@ -57,7 +57,10 @@ some of the following values are the values I use on my MAMP:
     
     ...
     
-    $CFG->servicename = '코스';
+    $CFG->servicename = 'Koseu';
+
+Setting up Login
+----------------
 
 Then go to https://console.developers.google.com/apis/credentials and
 create an "OAuth Client ID".  Make it a "Web Application", give it a name,
@@ -111,13 +114,4 @@ from the github repository:
     http://localhost:8888/koseu-site/tsugi/admin/install
 
 Click on "Available Modules" and install https://github.com/tsugitools/peer-grade
-
-Using the Application
----------------------
-
-Navigate to:
-
-    http://localhost:8888/koseu-site/hello/bob
-
-TBD...
 
