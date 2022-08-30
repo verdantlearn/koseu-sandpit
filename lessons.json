@@ -15,7 +15,13 @@
             ]
         }
     ],
-    "modules": [
+    "discussions" : [
+        {
+        "title" : "Welcome to Lucy's Koseu course!",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "discussion_welcome"
+        }
+    ],    "modules": [
     {
         "title": "Tool experiments",
         "anchor": "tools",
@@ -26,6 +32,13 @@
             {
                 "title" : "Overview of Tsugi",
                 "youtube" : "OzrlFJNBFqY"
+            }
+        ],
+        "discussions" : [
+            {
+            "title" : "Why Program?",
+            "launch" : "mod/tdiscus/",
+            "resource_link_id": "discuss_01_hello"
             }
         ],
         "lti" : [
