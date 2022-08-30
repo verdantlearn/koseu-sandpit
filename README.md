@@ -1,4 +1,4 @@
-# Using Koseu
+# Using Koseu - CHECK OUT MY NEW URL!
 
 ![VerdantLearn](src/images/VLlogo_100px.png)
 
