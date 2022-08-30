@@ -23,7 +23,7 @@
         ]
     },
     {
-        "title": "Content order - attempt 3",
+        "title": "Content order - attempt 4",
         "anchor": "order",
         "icon" : "fa-cloud",
         "description": "Experimenting with the order of tools, e.g. by adding multiple pages (references) and assignments in different places",
@@ -31,15 +31,7 @@
             {
                 "title" : "Lucy's presentation",
                 "youtube" : "gghpG6zvGY4"
-            }
-        ],
-        "references" : [
-            {
-                "title" : "VerdantLearn",
-                "href" : "http://www.verdantlearn.com/"
-            }
-        ],
-        "videos" : [
+            },
             {
                 "title" : "Using TsugiCloud in Google Classroom",
                 "youtube" : "SeAsoA_fJo0"
@@ -49,6 +41,10 @@
             {
                 "title" : "TsugiCloud (free Tsugi Hosting)",
                 "href" : "https://www.tsugicloud.org/"
+            },
+            {
+                "title" : "VerdantLearn",
+                "href" : "http://www.verdantlearn.com/"
             }
         ]
     },
