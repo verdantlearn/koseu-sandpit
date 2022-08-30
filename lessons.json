@@ -1,5 +1,5 @@
 {
-    "title": "Tools",
+    "title": "Learning how to edit Koseu",
     "description" : "Experiments with GIFT and other tools",
     "modules": [
     {
@@ -13,13 +13,32 @@
                 "title" : "Overview of Tsugi",
                 "youtube" : "OzrlFJNBFqY"
             }
+        ],
+        "lti" : [
+            {
+                "title" : "Quiz: Why program?",
+                "launch" : "mod/gift/?quiz=Py4Inf-01-Intro.txt",
+                "resource_link_id" : "py4e_01_in_quiz"
+            }
         ]
     },
     {
         "title": "Content order",
         "anchor": "order",
         "icon" : "fa-cloud",
-        "description": "Experimenting with the order of tools, e.g. by adding multiple assignments in different places",
+        "description": "Experimenting with the order of tools, e.g. by adding multiple pages (references) and assignments in different places",
+        "videos" : [
+            {
+                "title" : "Using TsugiCloud in Google Classroom",
+                "youtube" : "SeAsoA_fJo0"
+            }
+        ],
+        "references" : [
+            {
+                "title" : "TsugiCloud (free Tsugi Hosting)",
+                "href" : "https://www.tsugicloud.org/"
+            }
+        ],
         "videos" : [
             {
                 "title" : "Using TsugiCloud in Google Classroom",
