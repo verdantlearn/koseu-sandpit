@@ -17,8 +17,8 @@
         "lti" : [
             {
                 "title" : "Quiz: Why program?",
-                "launch" : "mod/gift/?quiz=Py4Inf-01-Intro.txt",
-                "resource_link_id" : "py4e_01_in_quiz"
+                "launch" : "mod/gift/?quiz=Quiz1.txt",
+                "resource_link_id" : "resource_link_id"
             }
         ]
     },
@@ -52,7 +52,7 @@
         "title": "Media experiments",
         "anchor": "media",
         "icon" : "fa-clone",
-        "description": "Experimenting with different types of media, such as revealJS slides, embedded Observable etc",
+        "description": "Experimenting with different types of media, such as revealJS slides, embedded Observable etc.  RevealJS slides work when added to repo as html, but links to media need fixing",
         "references" : [
             {
                 "title" : "Web Applications for Everybody Specialization (Coursera)",
