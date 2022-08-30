@@ -26,7 +26,7 @@
         "title": "Content order - attempt 4",
         "anchor": "order",
         "icon" : "fa-cloud",
-        "description": "Experimenting with the order of tools, e.g. by adding multiple pages (references) and assignments in different places",
+        "description": "Experimenting with the order of tools, e.g. by adding multiple pages (references) and assignments in different places.  You can only feature each content category (e.g. references or videos) in a single place, but I think the order of these content categories doesn't matter",
         "videos" : [
             {
                 "title" : "Lucy's presentation",
@@ -57,6 +57,10 @@
             {
                 "title" : "Web Applications for Everybody Specialization (Coursera)",
                 "href" : "https://www.coursera.org/specializations/web-applications/"
+            },
+            {
+                "title" : "RevealJS - Heart seat",
+                "href" : "src/slides/HeartSeat_Aug2022.html"
             }
         ]
     }
