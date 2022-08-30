@@ -1,6 +1,20 @@
 {
     "title": "Learning how to edit Koseu",
     "description" : "Experiments with GIFT and other tools",
+    "required_modules": [
+        "https://github.com/tsugitools/gift",
+        "https://github.com/tsugitools/tdiscus"
+    ],
+    "badges": [
+        {
+            "title" : "Introductory Python - Hello World!",
+            "threshold" : "0.8",
+            "image" : "01_hello_world.png",
+            "assignments" : [
+                "py4e_01_in_quiz"
+            ]
+        }
+    ],
     "modules": [
     {
         "title": "Tool experiments",
@@ -16,10 +30,15 @@
         ],
         "lti" : [
             {
-                "title" : "Quiz: Why program?",
+                "title" : "Quiz: GIFT example",
                 "launch" : "mod/gift/?quiz=Quiz1.txt",
                 "resource_link_id" : "resource_link_id"
+            },        {
+                "title" : "Quiz: Why program?",
+                "launch" : "mod/gift/?quiz=Py4Inf-01-Intro.txt",
+                "resource_link_id" : "py4e_01_in_quiz"
             }
+    
         ]
     },
     {
@@ -79,5 +98,4 @@
     }
     
     ]
-    }
-    
+}

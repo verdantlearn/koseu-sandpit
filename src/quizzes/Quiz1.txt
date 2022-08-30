@@ -1,4 +1,4 @@
-// See [GIFT format in Moodle docs](https://docs.moodle.org/29/en/GIFT_format) for more examples
+// See [GIFT format in Moodle docs](https://docs.moodle.org/400/en/GIFT_format) for more examples
 
 // true/false
 ::Q1 T/F:: 1+1=2 {T}
