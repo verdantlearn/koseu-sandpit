@@ -8,7 +8,7 @@ require "nav.php";
 
 ?>
 <div id="container">
-<h1>My course title</h1>
+<h1>My course title - CHECK OUT MY NEW URL!</h1>
 <?php if ( isset($_SESSION['id']) ) { ?>
 <p>
 Welcome to our Massive Open Online Course (MOOC). Now that you have logged in, you have access to 
