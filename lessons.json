@@ -1,70 +1,64 @@
 {
-"title": "Hosting Your Own MOOC with Koseu",
-"description" : "This is merely a sample lessons.json borrowed from www.tsugi.org.  You should edit this file with your own course materials, LTI tools, and videos.",
-"modules": [
-{
-    "title": "Overview of Tsugi",
-    "anchor": "overview",
-    "icon" : "fa-clone",
-    "description": "This gives some context around what Tsugi is and why Tsugi is being developed.",
-    "slides": "lectures/00-Mini.pptx",
-    "videos" : [
-        {
-            "title" : "Overview of Tsugi",
-            "youtube" : "OzrlFJNBFqY"
-        }
+    "title": "Tools",
+    "description" : "Experiments with GIFT and other tools",
+    "modules": [
+    {
+        "title": "Tool experiments",
+        "anchor": "tools",
+        "icon" : "fa-clone",
+        "description": "Here is the place where I try out different Tsugi tools",
+        "slides": "lectures/00-Mini.pptx",
+        "videos" : [
+            {
+                "title" : "Overview of Tsugi",
+                "youtube" : "OzrlFJNBFqY"
+            }
+        ]
+    },
+    {
+        "title": "Content order",
+        "anchor": "order",
+        "icon" : "fa-cloud",
+        "description": "Experimenting with the order of tools, e.g. by adding multiple assignments in different places",
+        "videos" : [
+            {
+                "title" : "Using TsugiCloud in Google Classroom",
+                "youtube" : "SeAsoA_fJo0"
+            }
+        ],
+        "references" : [
+            {
+                "title" : "TsugiCloud (free Tsugi Hosting)",
+                "href" : "https://www.tsugicloud.org/"
+            }
+        ]
+    },
+    {
+        "title": "Media experiments",
+        "anchor": "media",
+        "icon" : "fa-clone",
+        "description": "Experimenting with different types of media, such as revealJS slides, embedded Observable etc",
+        "references" : [
+            {
+                "title" : "Web Applications for Everybody Specialization (Coursera)",
+                "href" : "https://www.coursera.org/specializations/web-applications/"
+            }
+        ]
+    }
+    ,
+    {
+        "title": "blah blah",
+        "anchor": "module4",
+        "icon" : "fa-clone",
+        "description": "What will we learn here?",
+        "references" : [
+            {
+                "title" : "Web Applications for Everybody (WA4E)",
+                "href" : "https://www.wa4e.com/"
+            }
+        ]
+    }
+    
     ]
-},
-{
-    "title": "Using Tsugi Apps in a Learning System",
-    "anchor": "tsugitools",
-    "icon" : "fa-cloud",
-    "description": "TsugiCloud provides free hosting for open source Tsugi tools.  Teachers can use TsugiCloud tools in their Learning Management Systems (LMS) or Google Classroom for free.  Developers can submit their tools to TsugiCloud for free hosting and use by teachers.   Developers can also host their own Tsugi app store if they like.",
-    "videos" : [
-        {
-            "title" : "Using TsugiCloud in Google Classroom",
-            "youtube" : "SeAsoA_fJo0"
-        },
-        {
-            "title" : "Using TsugiCloud in Sakai",
-            "youtube" : "au2_C_2PgIA"
-        }
-    ],
-    "references" : [
-        {
-            "title" : "TsugiCloud (free Tsugi Hosting)",
-            "href" : "https://www.tsugicloud.org/"
-        },
-        {
-            "title" : "Using TsugiCloud with Google Classroom",
-            "href" : "https://www.tsugicloud.org/about/documentation/howto/classroom"
-        },
-        {
-            "title" : "Using TsugiCloud with Canvas",
-            "href" : "https://www.tsugicloud.org/about/documentation/howto/canvas"
-        },
-        {
-            "title" : "Using TsugiCloud with Sakai",
-            "href" : "https://www.tsugicloud.org/about/documentation/howto/sakai"
-        }
-    ]
-},
-{
-    "title": "Pre-Requisite: Learning PHP and MySQL",
-    "anchor": "wa4e",
-    "icon" : "fa-clone",
-    "description": "If you don't know how to use PHP, MySQL, and JavaScript, to build web applications, we recommend you take 'Web Applications for Everybody'.  You can earn a certificate on Coursera or take the course at our free online web site.",
-    "references" : [
-        {
-            "title" : "Web Applications for Everybody Specialization (Coursera)",
-            "href" : "https://www.coursera.org/specializations/web-applications/"
-        },
-        {
-            "title" : "Web Applications for Everybody (WA4E)",
-            "href" : "https://www.wa4e.com/"
-        }
-    ]
-}
-
-]
-}
+    }
+    

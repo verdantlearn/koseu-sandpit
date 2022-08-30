@@ -1,6 +1,8 @@
-# koseu-site
+# Using Koseu
 
-A Very Simple Example of a Koseu LMS Instance
+![VerdantLearn](src/images/VLlogo_100px.png)
+
+This site is VerdantLearn's first Koseu instance
 
 Setup On Localhost
 ------------------

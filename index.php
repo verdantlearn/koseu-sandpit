@@ -8,7 +8,7 @@ require "nav.php";
 
 ?>
 <div id="container">
-<h1>Hosting Your Own MOOC</h1>
+<h1>My course title</h1>
 <?php if ( isset($_SESSION['id']) ) { ?>
 <p>
 Welcome to our Massive Open Online Course (MOOC). Now that you have logged in, you have access to 
@@ -28,7 +28,7 @@ a grade book, access to autograded assignments, see a map of your fellow student
 </li>
 <li>
 Privacy is important so there is a sample
-<a href="privacy">Privacy Policy</a> that is provided as a starting point.
+<a href="privacy">Privacy Policy</a> that is provided as a starting point.  This is also an example of how to refer to a php file located in the main directory
 </li>
 </ul>
 <?php } ?>
