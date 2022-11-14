@@ -1,114 +1,118 @@
 {
     "title": "Learning how to edit Koseu",
-    "description" : "Experiments with GIFT and other tools",
+    "description": "Experiments with GIFT and other tools",
     "required_modules": [
         "https://github.com/tsugitools/gift",
         "https://github.com/tsugitools/tdiscus"
     ],
     "badges": [
         {
-            "title" : "Introductory Python - Hello World!",
-            "threshold" : "0.8",
-            "image" : "01_hello_world.png",
-            "assignments" : [
+            "title": "Introductory Python - Hello World!",
+            "threshold": "0.8",
+            "image": "01_hello_world.png",
+            "assignments": [
                 "py4e_01_in_quiz"
             ]
         }
     ],
-    "discussions" : [
+    "discussions": [
         {
-        "title" : "Welcome to Lucy's Koseu course!",
-        "launch" : "mod/tdiscus/",
-        "resource_link_id": "discussion_welcome"
+            "title": "Welcome to Lucy's Koseu course!",
+            "launch": "mod/tdiscus/",
+            "resource_link_id": "discussion_welcome"
         }
-    ],    "modules": [
-    {
-        "title": "Tool experiments",
-        "anchor": "tools",
-        "icon" : "fa-clone",
-        "description": "Here is the place where I try out different Tsugi tools",
-        "slides": "lectures/00-Mini.pptx",
-        "videos" : [
-            {
-                "title" : "Overview of Tsugi",
-                "youtube" : "OzrlFJNBFqY"
-            }
-        ],
-        "discussions" : [
-            {
-            "title" : "Why Program?",
-            "launch" : "mod/tdiscus/",
-            "resource_link_id": "discuss_01_hello"
-            }
-        ],
-        "lti" : [
-            {
-                "title" : "Quiz: GIFT example",
-                "launch" : "mod/gift/?quiz=Quiz1.txt",
-                "resource_link_id" : "resource_link_id"
-            },        {
-                "title" : "Quiz: Why program?",
-                "launch" : "mod/gift/?quiz=Py4Inf-01-Intro.txt",
-                "resource_link_id" : "py4e_01_in_quiz"
-            }
-    
-        ]
-    },
-    {
-        "title": "Content order - attempt 4",
-        "anchor": "order",
-        "icon" : "fa-cloud",
-        "description": "Experimenting with the order of tools, e.g. by adding multiple pages (references) and assignments in different places.  You can only feature each content category (e.g. references or videos) in a single place, but I think the order of these content categories doesn't matter",
-        "videos" : [
-            {
-                "title" : "Lucy's presentation",
-                "youtube" : "gghpG6zvGY4"
-            },
-            {
-                "title" : "Using TsugiCloud in Google Classroom",
-                "youtube" : "SeAsoA_fJo0"
-            }
-        ],
-        "references" : [
-            {
-                "title" : "TsugiCloud (free Tsugi Hosting)",
-                "href" : "https://www.tsugicloud.org/"
-            },
-            {
-                "title" : "VerdantLearn",
-                "href" : "http://www.verdantlearn.com/"
-            }
-        ]
-    },
-    {
-        "title": "Media experiments",
-        "anchor": "media",
-        "icon" : "fa-clone",
-        "description": "Experimenting with different types of media, such as revealJS slides, embedded Observable etc.  RevealJS slides work when added to repo as html, but links to media need fixing",
-        "references" : [
-            {
-                "title" : "Web Applications for Everybody Specialization (Coursera)",
-                "href" : "https://www.coursera.org/specializations/web-applications/"
-            },
-            {
-                "title" : "RevealJS - Heart seat",
-                "href" : "src/slides/HeartSeat_Aug2022.html"
-            }
-        ]
-    }
-    ,
-    {
-        "title": "blah blah",
-        "anchor": "module4",
-        "icon" : "fa-clone",
-        "description": "What will we learn here?",
-        "references" : [
-            {
-                "title" : "Web Applications for Everybody (WA4E)",
-                "href" : "https://www.wa4e.com/"
-            }
-        ]
-    }
-    
+    ],
+    "modules": [
+        {
+            "title": "Tool experiments",
+            "anchor": "tools",
+            "icon": "fa-clone",
+            "description": "Here is the place where I try out different Tsugi tools.  For example, Tsugi discussion, Discourse, GIFT",
+            "slides": "lectures/00-Mini.pptx",
+            "videos": [
+                {
+                    "title": "Overview of Tsugi",
+                    "youtube": "OzrlFJNBFqY"
+                }
+            ],
+            "discussions": [
+                {
+                    "title": "Why Program?",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "discuss_01_hello"
+                }
+            ],
+            "lti": [
+                {
+                    "title": "Quiz: GIFT example",
+                    "launch": "mod/gift/?quiz=Quiz1.txt",
+                    "resource_link_id": "resource_link_id"
+                },
+                {
+                    "title": "Quiz: GIFT example in src",
+                    "launch": "src/quizzes/Quiz1.txt",
+                    "resource_link_id": "Quiz1_src"
+                },
+                {
+                    "title": "Quiz: Why program?",
+                    "launch": "mod/gift/?quiz=Py4Inf-01-Intro.txt",
+                    "resource_link_id": "py4e_01_in_quiz"
+                }
+            ]
+        },
+        {
+            "title": "Content order - attempt 4",
+            "anchor": "order",
+            "icon": "fa-cloud",
+            "description": "Experimenting with the order of tools, e.g. by adding multiple pages (references) and assignments in different places.  You can only feature each content category (e.g. references or videos) in a single place, but I think the order of these content categories doesn't matter",
+            "videos": [
+                {
+                    "title": "Lucy's presentation",
+                    "youtube": "gghpG6zvGY4"
+                },
+                {
+                    "title": "Using TsugiCloud in Google Classroom",
+                    "youtube": "SeAsoA_fJo0"
+                }
+            ],
+            "references": [
+                {
+                    "title": "TsugiCloud (free Tsugi Hosting)",
+                    "href": "https://www.tsugicloud.org/"
+                },
+                {
+                    "title": "VerdantLearn",
+                    "href": "http://www.verdantlearn.com/"
+                }
+            ]
+        },
+        {
+            "title": "Media experiments",
+            "anchor": "media",
+            "icon": "fa-clone",
+            "description": "Experimenting with different types of media, such as revealJS slides, embedded Observable etc.  RevealJS slides work when added to repo as html, but links to media need fixing",
+            "references": [
+                {
+                    "title": "Web Applications for Everybody Specialization (Coursera)",
+                    "href": "https://www.coursera.org/specializations/web-applications/"
+                },
+                {
+                    "title": "RevealJS - Heart seat",
+                    "href": "src/slides/HeartSeat_Aug2022.html"
+                }
+            ]
+        },
+        {
+            "title": "blah blah",
+            "anchor": "module4",
+            "icon": "fa-clone",
+            "description": "What will we learn here?",
+            "references": [
+                {
+                    "title": "Web Applications for Everybody (WA4E)",
+                    "href": "https://www.wa4e.com/"
+                }
+            ]
+        }
     ]
 }
